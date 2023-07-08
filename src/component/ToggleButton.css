@@ -14,7 +14,15 @@ body {
   align-items: center;
 }
 
-
+  
+#btn {
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 29rem;
+  margin-top: 3rem;
+}
 
 .first {
   border: 2px black solid;
@@ -120,7 +128,16 @@ a {
     margin-top: 13rem;
     margin-bottom: 3rem;
   }
-  
+
+    
+#btn {
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
   
   .first {
     border: 2px black solid;
