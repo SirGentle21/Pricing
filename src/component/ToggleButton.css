@@ -135,7 +135,7 @@ a {
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
-  margin-left: 10rem;
+  margin-left: 8rem;
   margin-top: 3rem;
 }
   
@@ -145,6 +145,7 @@ a {
     background: #fff;
     border: none;
     box-shadow: 5px 5px 10px #ccc;
+    margin-top: 5rem;
   }
   
   .first p {
