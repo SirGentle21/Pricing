@@ -137,7 +137,8 @@ a {
   cursor: pointer;
   margin-left: 10rem;
   margin-top: 3rem;
-  background: lightcoral;
+  background: hsl(237, 63%, 64%);
+  color: white;
 }
   
   .first {
@@ -146,7 +147,7 @@ a {
     background: #fff;
     border: none;
     box-shadow: 5px 5px 10px #ccc;
-    margin-top: 5rem;
+    margin-top: 6rem;
   }
   
   .first p {
