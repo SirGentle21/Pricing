@@ -7,6 +7,6 @@ function App() {
       <ToggleButton />
     </div>
   )
-}
+};
 
 export default App;
