@@ -7,6 +7,7 @@ const ToggleButton = () => {
 
   return (
     <div>
+<<<<<<< HEAD
       <h1 id="pricing">Our Pricing</h1>
       <div className="spin">
       <span>Monthly</span> <label class="switch">
@@ -15,6 +16,9 @@ const ToggleButton = () => {
   </label> <span>Annually</span>
   </div>
       {/* <button onClick={() => setToggle(!toggle)} id="btn-main">{toggle ? "Annually" : "Monthly"}</button> */}
+=======
+      <button onClick={() => setToggle(!toggle)} id="btn">{toggle ? "Annually" : "Monthly"}</button>
+>>>>>>> 90122ad39230a26de8f3d7c8f8cea5edf2b5c573
       {toggle ? 
        <div className="main">
        <section className="first" id="sec">
@@ -23,7 +27,11 @@ const ToggleButton = () => {
          <p id="users">1TB GB Storage</p>
          <p id="users">3 Users Allowed</p>
          <p id="users">Send up to 5 GB</p>
+<<<<<<< HEAD
          <a href="#" id="learn">LEARN MORE</a>
+=======
+         <a href="#">LEARN MORE</a>
+>>>>>>> 90122ad39230a26de8f3d7c8f8cea5edf2b5c573
        </section>
        <section className="second" id="sec">
          <h1>Professional</h1>
@@ -39,7 +47,11 @@ const ToggleButton = () => {
          <p id="users">10 TB Storage</p>
          <p id="users">15 Users Allowed</p>
          <p id="users">Send up to 25 GB</p>
+<<<<<<< HEAD
          <a href="#" id="learn">LEARN MORE</a>
+=======
+         <a href="#">LEARN MORE</a>
+>>>>>>> 90122ad39230a26de8f3d7c8f8cea5edf2b5c573
        </section>
        
      </div> : 
@@ -50,7 +62,11 @@ const ToggleButton = () => {
          <p id="users">500 GB Storage</p>
          <p id="users">2 Users Allowed</p>
          <p id="users">Send up to 3 GB</p>
+<<<<<<< HEAD
          <a href="#" id="learn">LEARN MORE</a>
+=======
+         <a href="#">LEARN MORE</a>
+>>>>>>> 90122ad39230a26de8f3d7c8f8cea5edf2b5c573
        </section>
        <section className="second" id="sec">
          <h1>Professional</h1>
@@ -66,7 +82,11 @@ const ToggleButton = () => {
          <p id="users">2 TB Storage</p>
          <p id="users">10 Users Allowed</p>
          <p id="users">Send up to 20 GB</p>
+<<<<<<< HEAD
          <a href="#" id="learn">LEARN MORE</a>
+=======
+         <a href="#">LEARN MORE</a>
+>>>>>>> 90122ad39230a26de8f3d7c8f8cea5edf2b5c573
        </section>
        
      </div>
@@ -75,3 +95,7 @@ const ToggleButton = () => {
   );
 };
 export default ToggleButton;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90122ad39230a26de8f3d7c8f8cea5edf2b5c573
