@@ -1,12 +1,13 @@
 import React from 'react';
-import SwitchToggle from './component/SwitchToggle';
-import Main from './component/Main';
+import Main from './component/ToggleButton';
+import Switch from './component/Switch';
+
 
 function App() {
   return (
     <div className="app">
-      <SwitchToggle />
       <Main />
+      {/* <Switch /> */}
     </div>
   )
 }
