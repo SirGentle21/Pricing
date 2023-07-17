@@ -9,13 +9,13 @@ const ToggleButton = () => {
     <div>
       <h1 id="pricing">Our Pricing</h1>
       <div className="spin">
-      <span>Monthly</span> <label class="switch">
+      <span>Monthly</span> 
+      <label class="switch">
    <input type="checkbox" />
    <span class="slider round" onClick={() => setToggle(!toggle)}></span>
   </label> <span>Annually</span>
   </div>
       {/* <button onClick={() => setToggle(!toggle)} id="btn-main">{toggle ? "Annually" : "Monthly"}</button> */}
-      <button onClick={() => setToggle(!toggle)} id="btn">{toggle ? "Annually" : "Monthly"}</button>
 
       {toggle ? 
        <div className="main">
