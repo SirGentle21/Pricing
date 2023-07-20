@@ -41,7 +41,7 @@ const ToggleButton = () => {
          <p id="users">10 TB Storage</p>
          <p id="users">15 Users Allowed</p>
          <p id="users">Send up to 25 GB</p>
-         <a href="#" id="learn">LEARN MORE</a>
+         <a href="#" className="lean" id="learn">LEARN MORE</a>
        </section>
        
      </div> : 
